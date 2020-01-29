@@ -1,10 +1,13 @@
-# Input format
-# M N
-# V01 V02
-# V11 V12
-# ...
-# VM1 VM2
+"""
+Program to perform BFS using adjacency list
 
+Input format:
+M N
+V01 V02
+V11 V12
+ ...
+VM1 VM2
+"""
 edges, vertices = map(int,input().split(' '))
 adjacency_list = [[] for i in range(vertices)]
 
