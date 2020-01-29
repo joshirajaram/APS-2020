@@ -1,3 +1,6 @@
+"""
+Python program to generate first n triangular numbers
+"""
 n=int(input())
 tri=[]
 for i in range(1,n):
