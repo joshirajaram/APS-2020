@@ -10,4 +10,3 @@ def is_solution(perm):
 for perm in it.permutations(range(8)):
     if is_solution(perm):
         print(perm)
-        exit()
