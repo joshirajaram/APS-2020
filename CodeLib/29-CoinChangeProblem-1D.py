@@ -1,3 +1,5 @@
+# aka Number of ways to reach N
+
 N=int(input())
 A=list(map(int,input().split()))
 Table=[0]*(N+1)
