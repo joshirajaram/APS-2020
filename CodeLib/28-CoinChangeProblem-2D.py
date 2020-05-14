@@ -1,10 +1,10 @@
-V=int(input())
+N=int(input())
 A=list(map(int,input().split()))
 A.insert(0,0)
 M=[]
 for i in range(0,len(A)):
 	l=[]
-	for j in range(0,V+1):
+	for j in range(0,N+1):
 		if j==0:
 			l.append(1)
 		else:
@@ -12,7 +12,7 @@ for i in range(0,len(A)):
 	M.append(l)
 A.sort()
 for i in range(1,len(A)):
-	for j in range(0,V+1):
+	for j in range(0,N+1):
 		if A[i]>j:
 			M[i][j]=M[i-1][j]
 		else:
